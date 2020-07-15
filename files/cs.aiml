@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	 <category>
+        <pattern> Process</pattern>
+        <template>Welcome To Computer Science Department.Please select a options from below :
+   <button>
+       <text>BS Computer Science</text>
+       <postback>BS</postback>
+   </button>
+   <button>
+       <text>MS Computer Science</text>
+       <postback>MS</postback>
+   </button>
+   <button>
+       <text>PHD Computer Science</text>
+       <postback>Phd</postback>
+   </button>
+     </template>
+    </category>
+    
+	
+</aiml>

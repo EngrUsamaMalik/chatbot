@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>help</pattern>
+        <template> Welcome To University
+           <image>https://i.ytimg.com/vi/32Nyd85-sNM/maxresdefault.jpg</image>
+    
+   <button>
+       <text>Faculty of Information Technolgy and Computing</text>
+       <postback>list</postback>
+   </button>
+     </template>
+   </category>
+   <category>
+    <pattern>list</pattern>
+        <template> Hey Welcomee !! This  is your Student career bot for Faculty of Information Technology and Computing.To proceed further please select a options from below :
+   <button>
+       <text>Information Technolgy</text>
+       <postback>Admission Process</postback>
+   </button>
+   <button>
+       <text>Computer Science</text>
+       <postback> Process</postback>
+   </button>
+   <button>
+       <text>Software Engnieering</text>
+       <postback>Admission </postback>
+   </button>
+   </template>
+    </category>
+    <category>
+        <pattern>Admission Process</pattern>
+        <template>Welcome To Information Technology Department.Please select a options from below :
+   
+     <button>
+       <text>BS Information Technology</text>
+       <postback>BS</postback>
+   </button>
+   <button>
+       <text>MS Information Technology</text>
+       <postback>MS</postback>
+   </button>
+   <button>
+       <text>PHD Information Technology</text>
+       <postback>Phd</postback>
+   </button>
+   
+   
+   </template>
+    </category>
+     
+	<!-- insert your AIML categories here -->
+</aiml>
